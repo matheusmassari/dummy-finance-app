@@ -3,7 +3,10 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 :root {
     --background: #f0f2f5;
+    --dark-brown: #654321;
+    --light-brown: #C4A484;
     --red: #e52e4d;
+    --green: #33cc95;
     --blue: #5429cc;
     --blue-light: #6933ff;
     --text-title: #363f5f;
@@ -50,4 +53,4 @@ button {
     cursor: not-allowed;
 }
 
-`
+`;
